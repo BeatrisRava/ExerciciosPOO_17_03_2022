@@ -1,10 +1,7 @@
-public class Ex02While {
+public class Ex02For {
     public static void main(String[] args) {
-        int contador = 100;
-        while (contador >= 1){
+        for (int contador = 100; contador >= 1 ; contador-- ){
             System.out.printf (" %d " , contador);
-            contador--;
         }
     }
 }
-
