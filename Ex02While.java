@@ -1,8 +1,8 @@
-public class Ex01While{
+public class Ex02While {
     public static void main(String[] args) {
         int contador = 1;
         while (contador < 100){
-            contador = contador + 1;
+            contador --;
             System.out.printf("%d\n", contador);
         }
     }
